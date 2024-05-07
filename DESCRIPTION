@@ -1,0 +1,16 @@
+Package: reactive6
+Type: Package
+Title: Reactive R6 models for shiny
+Version: 0.3.3
+Authors@R: as.person(c("Stefano Borini <stefano.borini@astrazeneca.com> [aut, cre]"))
+License: file LICENSE
+Description: Reactive R6 models for shiny
+Repository: CRAN
+Imports:
+    R6 (>= 2.5.0),
+    shiny (>= 1.7.0)
+Suggests:
+VignetteBuilder: knitr
+Encoding: UTF-8
+Config/testthat/parallel: false
+Config/testthat/edition: 3

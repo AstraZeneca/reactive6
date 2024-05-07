@@ -1,0 +1,2 @@
+# Set the number of CPUs to use to perform tests
+TESTTHAT_CPUS=4

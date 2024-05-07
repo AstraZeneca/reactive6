@@ -1,0 +1,20 @@
+repos:
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v2.4.0
+    hooks:
+    - id: trailing-whitespace
+      exclude: man/.*
+    - id: end-of-file-fixer
+    - id: check-added-large-files
+    - id: check-toml
+    - id: check-json
+    - id: check-case-conflict
+    - id: pretty-format-json
+    - id: check-merge-conflict
+    - id: mixed-line-ending
+-   repo: https://github.com/lorenzwalthert/precommit
+    rev: v0.2.2
+    hooks:
+    -   id: lintr
+    -   id: style-files
+        args: [--scope=spaces, --reindention=specify_reindention('#')]

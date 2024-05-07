@@ -1,0 +1,24 @@
+[tool.roo]
+
+[[tool.roo.source]]
+name = "CRAN"
+url = "https://cloud.r-project.org/"
+
+[tool.roo.dependencies]
+R6 = ">=2.5"
+shiny = ">=1.7"
+
+[tool.roo.dev-dependencies]
+knitr = ">=1.38,<2.0"
+rmarkdown = ">=2.16,<3.0"
+pkgdown = "1.6.1"
+testthat = "*"
+roxygen2 = "*"
+lintr = "*"
+devtools = "2.4.3"
+here = "*"
+covr = "*"
+# DT and htmltools needed by covr to generate the table
+DT = "*"
+htmltools = "*"
+mockery = "*"
